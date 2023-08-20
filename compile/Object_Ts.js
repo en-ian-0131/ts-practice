@@ -1,0 +1,23 @@
+"use strict";
+//interface
+console.log("----interface----");
+let teacher = {
+    name: "Tom",
+    age: 28, //屬性多一個少一個都不行
+};
+console.log(teacher);
+//可選屬性
+console.log("----interface 2----");
+let student = {
+    name: "jerry",
+};
+console.log(student);
+//任選屬性
+console.log("----interface 3----");
+let teacher2 = {
+    name: "Ian",
+    //age: 23,    //有任選屬性，可選要跟著也是string，23會出錯
+    gender: "male",
+};
+console.log(teacher2);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiT2JqZWN0X1RzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vc3JjL09iamVjdF9Ucy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsV0FBVztBQUNYLE9BQU8sQ0FBQyxHQUFHLENBQUMsbUJBQW1CLENBQUMsQ0FBQztBQU1qQyxJQUFJLE9BQU8sR0FBVztJQUNwQixJQUFJLEVBQUUsS0FBSztJQUNYLEdBQUcsRUFBRSxFQUFFLEVBQUUsYUFBYTtDQUN2QixDQUFDO0FBQ0YsT0FBTyxDQUFDLEdBQUcsQ0FBQyxPQUFPLENBQUMsQ0FBQztBQUVyQixNQUFNO0FBQ04sT0FBTyxDQUFDLEdBQUcsQ0FBQyxxQkFBcUIsQ0FBQyxDQUFDO0FBTW5DLElBQUksT0FBTyxHQUFZO0lBQ3JCLElBQUksRUFBRSxPQUFPO0NBQ2QsQ0FBQztBQUNGLE9BQU8sQ0FBQyxHQUFHLENBQUMsT0FBTyxDQUFDLENBQUM7QUFFckIsTUFBTTtBQUNOLE9BQU8sQ0FBQyxHQUFHLENBQUMscUJBQXFCLENBQUMsQ0FBQztBQVFuQyxJQUFJLFFBQVEsR0FBWTtJQUN0QixJQUFJLEVBQUUsS0FBSztJQUNYLHlDQUF5QztJQUN6QyxNQUFNLEVBQUUsTUFBTTtDQUNmLENBQUM7QUFDRixPQUFPLENBQUMsR0FBRyxDQUFDLFFBQVEsQ0FBQyxDQUFDIn0=
